@@ -10,7 +10,7 @@ module.exports = {
 			colors: {
 				bodyColor: "#212428",
 				lightText: "#c4cfde",
-				designColor: "#ff014",
+				designColor: "#ff014d",
 			},
 			boxShadow:{
 				shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
