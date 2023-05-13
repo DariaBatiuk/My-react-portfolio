@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="w-full h-20 flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
         <ul className="w-full h-20 mx-auto flex justify-end items-center gap-10 font-titleFont">
           {navLinksdata.map(({ _id, title, link }) => (
