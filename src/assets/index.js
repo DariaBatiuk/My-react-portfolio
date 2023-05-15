@@ -6,6 +6,7 @@ import mobile from "./images/Mobile.jpg";
 import projectTracker from "./images/NB_Project_Tracker.jpg";
 import pulse from "./images/pulse.jpg";
 import wikitube from "./images/Wikitube.jpg";
+import newFavicon from "./images/imgonline-com-ua-BigPicture-oXAEO1Olckl.png"
 
 export{
 	calculator,
@@ -16,4 +17,5 @@ export{
 	projectTracker,
 	pulse,
 	wikitube,
+	newFavicon,
 }

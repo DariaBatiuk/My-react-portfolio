@@ -4,9 +4,10 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div className="w-full h-24 py-20 flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-24 py-20 flex justify-end items-start font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <ul className="w-full h-20 mx-auto flex justify-end items-center gap-10 font-titleFont">
+        <ul className="w-full h-20 mx-auto flex justify-center
+				 items-center gap-10 font-titleFont">
           {navLinksdata.map(({ _id, title, link }) => (
             <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300" key={_id}>
               <Link
