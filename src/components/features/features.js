@@ -1,5 +1,5 @@
 import React from "react";
-import { FaMobile } from "react-icons/fa";
+import { FaMobile  } from "react-icons/fa";
 import { SiAntdesign, SiProgress } from "react-icons/si";
 import Title from "../layouts/title";
 import Card from "./card";
