@@ -3,10 +3,10 @@ import Title from "../layouts/title";
 import Education from "./education";
 import Skills from "./skills";
 import Experience from "./experience";
-import ResumeCard from "./resumeCard";
+
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState(true);
+  const [educationData, setEducationData] = useState(false);
   const [skillsData, setSkillsData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
   return (
@@ -20,7 +20,10 @@ const Resume = () => {
 						setEducationData(true) &
 						setSkillsData(false) &
 						setExperienceData(false)
-						} className="resumeLi">
+						} 
+						
+						className={`${educationData ? "border-designColor rounded-lg" : "border-transparent" } resumeLi`}>
+
             Education
           </li>
           <li
@@ -29,7 +32,7 @@ const Resume = () => {
 							setSkillsData(true) &
 							setExperienceData(false)
 						}
-            className="resumeLi"
+            className={`${skillsData ? "border-designColor rounded-lg" : "border-transparent" } resumeLi`}
           >
             Professional Skills
           </li>
@@ -39,13 +42,16 @@ const Resume = () => {
 						setSkillsData(false) &
 						setExperienceData(true)
 						} 
-					className="resumeLi">Experience</li>
+						className={`${experienceData ? "border-designColor rounded-lg" : "border-transparent" } resumeLi`}
+					>
+						
+						Experience</li>
         </ul>
       </div>
       {educationData && <Education />}
 			{skillsData && <Skills />}
 			{experienceData && <Experience />}
-      <Education />
+      {/* <Education /> */}
     </section>
   );
 };

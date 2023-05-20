@@ -1,9 +1,11 @@
 import React from "react";
 import ResumeCard from "./resumeCard";
+import { motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
 const Experience = () => {
   return (
-		<div>
+		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 5 }}>
 			   <div className="py-12 font-titleFont ">
         <p className="text-sm text-designColor tracking-[4px]">some years</p>
         <h2 className="text-4xl font-bold">Education name smth</h2>
@@ -30,7 +32,7 @@ const Experience = () => {
     ))}
 />
       </div>
-		</div>
+		</motion.div>
   
   );
 };
