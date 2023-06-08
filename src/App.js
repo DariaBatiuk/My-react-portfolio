@@ -5,6 +5,7 @@ import Features from "./components/features/features";
 import Project from "./components/projects/projects";
 import Resume from "./components/resume/resume";
 import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
       <Navbar />
 			<div className="max-w-screen-xl mx-auto px-16">
         
-				<Banner/>
-				<Features/>
+				<Banner />
+				<Features />
 				<Project />
 				<Resume />
 				<Contact />
+				<Footer />
       </div>
     </div>
   );
