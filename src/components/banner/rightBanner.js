@@ -4,7 +4,7 @@ import { newFavicon } from "../../assets";
 
 const RightBanner = () => {
   return (
-		<div className="relative w-1/2 items-start">
+		<div className="w-full relative lgl:w-1/2 items-start">
 		<img
 			className="relative z-10 w-full h-[680px]"
 			src={newFavicon}

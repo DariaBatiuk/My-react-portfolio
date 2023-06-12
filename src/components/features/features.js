@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <section id="features" className="w-full py-20  border-b-1 border-black">
       <Title  title="Features" des="What I Do" />
-			<div className="grid grid-cols-3 gap-20">
+			<div className="grid grid-cols-1 md:grod-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
 				<Card title="Web and Mobile App Development" des="Build a custom web site or any other web or mobile application" icon={<FaMobile />}/>
 				<Card title="Software development" des="User-fiendly web site or application for your business" icon={<SiProgress />}/>
 				<Card title="UI/UX Design" des="Create a user-friendly interfaces that enable users to understand how to use complex technical products" icon={<SiAntdesign />}/>

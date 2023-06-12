@@ -24,8 +24,12 @@
 	.outline-red {
 		@apply outline-designColor
 	}
+
 }
 
 .active{
 	color: white;
+}
+.scrollbar-hide::-webkit-scrollbar{
+		display: none;
 }

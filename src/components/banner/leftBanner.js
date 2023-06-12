@@ -12,8 +12,8 @@ const LeftBanner = () => {
   });
 
   return (
-    <section id="leftBanner" className="w-1/2 h-[800px] pb-20 flex border-b-[1px] border-b-black" >
-<div className="flex flex-col gap-20 justify-center" style={{ width: '100%' }}>
+    <section id="leftBanner" className="w-full lgl:w-1/2 h-[800px] pb-20 flex border-b-[1px] border-b-black" >
+<div className="w-full flex flex-col gap-20 justify-center" style={{ width: '100%' }}>
         <div className="flex flex-col gap-5">
           <h4 className="text-lg font-normal">Welcome to my website</h4>
           <h1 className="text-6xl font-bold text-white">

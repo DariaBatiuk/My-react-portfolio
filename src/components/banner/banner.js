@@ -4,9 +4,9 @@ import RightBanner from "./rightBanner";
 
 const Banner = () => {
   return (
-    <section
+    <section 
       id="home"
-      className="w-full py-20 flex border-b-1 border-black font-titleFont"
+      className="w-full py-20 flex flex-col lgl:flex-row border-b-1 border-black font-titleFont"
     >
       <LeftBanner />
 

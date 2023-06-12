@@ -12,7 +12,7 @@ const Project = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="Visit my portfolio" des="My projects" />
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap:6vxl:gap-10">
         
         <ProjectCard 
 						title="E-commerce Back-End Project"
