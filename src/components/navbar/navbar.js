@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 py-20 z-20 bg-bodyColor sticky top-0 flex justify-end items-start font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <ul className="hidden mdl:inline-flex w-full h-20 mx-auto flex justify-center
-				 items-center gap-6 lg:gap-10 font-titleFont">
+			<ul className="hidden lg:inline-flex w-full h-20 mx-auto py-30 flex justify-center items-center gap-6 lg:gap-10 font-titleFont" >
+
           {navLinksdata.map(({ _id, title, link }) => (
             <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300" key={_id}>
               <Link
@@ -26,13 +26,13 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-				<span onClick={() => setShowMenu(!showMenu)} className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"> <FiMenu /></span>
+				<span onClick={() => setShowMenu(!showMenu)} className="text-xl lg:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"> <FiMenu /></span>
 				{
 					showMenu && (
 						<div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
 							<div className="flex flex-col gap-8 py-2  relative">
 							<div>
-								<p className="text-sm text-gray-400 mt-2">Lorem	</p>
+								{/* <p className="text-sm text-gray-400 mt-2">Lorem	</p> */}
 							</div>
 							<ul className="flex flex-col gap-4">
 								{

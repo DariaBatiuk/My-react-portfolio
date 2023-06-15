@@ -14,10 +14,10 @@ const ContactLeft = () => {
 			<p className="text-base text-gray-400 tracking-wide">
 				Some information 
 			</p>
-			<p className="text-base text-gray-400 flex items-center gap-2">
+			<p className="text-base text-gray-400 flex flex-col sml:flex-row items-baseline sml:items-center gap-2">
 				Phone: <span className="text-lighText"> +1 506 898 31 55</span>
 			</p>
-			<p className="text-base text-gray-400 flex items-center gap-2">
+			<p className="text-base text-gray-400 flex flex-col sml:flex-row items-baseline sml:items-center gap-2">
 				Email:{" "} <span className="text-lighText"> dariabatiuk5@gmail.com</span>
 			</p>
 		</div>

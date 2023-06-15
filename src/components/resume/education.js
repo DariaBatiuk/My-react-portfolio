@@ -11,7 +11,7 @@ const Education = () => {
         <p className="text-2xl md:text-sm text-designColor tracking-[4px]">some years</p>
         <h2 className="text-4xl font-bold">Education name smth</h2>
       </div>
-      <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+      <div className="mt-6 lgl:mt-14 w-full h-[1500px] sml:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
           title="Certificate, Fullstack development"
           subtitle="University of New Brunswick (September 2022 - April 2023)"

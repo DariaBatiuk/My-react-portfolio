@@ -28,7 +28,7 @@ const LeftBanner = () => {
               cursorColor="#ff014f"
             />
           </h2>
-          <p className="text-base font-bodyFont leading-6 tracking-wide">
+          <p className="hidden sm:block text-base font-bodyFont leading-6 tracking-wide ">
             Motivated front-end developer with expertise in developing and
             maintaining user-friendly, responsive, and cross-browser compatible
             websites and web applications using HTML, CSS, JavaScript and React
