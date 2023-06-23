@@ -24,12 +24,17 @@ const ContactLeft = () => {
 		<div className="flex flex-col gap-4">
 			<h2 className="text-base uppercase font-tutleFont mb-4 "> FIND ME </h2>
 			<div className="flex gap-4">
-				<span className="bannerIcon">
-					<FaLinkedinIn />
-				</span>
-				<span className="bannerIcon">
-					<FaGithub />
-				</span>
+			<a href="https://www.linkedin.com/in/dariabatiuk/" target="_blank">
+						<span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+						</a>
+            
+						<a href="https://github.com/DariaBatiuk" target="_blank">
+						<span className="bannerIcon" >
+              <FaGithub />
+            </span>
+						</a>
 			</div>
 		</div>
 	</div>

@@ -7,15 +7,23 @@ const Footer = () => {
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 lgl:grid-cols-2 gap-8" >
 			<div className="w-full h-full flex flex-col gap-8">
 			<div className="flex gap-4">
-				<span className="bannerIcon">
-					<FaLinkedinIn />
-				</span>
-				<span className="bannerIcon">
-					<FaGithub />
-				</span>
-				<span className="bannerIcon">
+			<a href="https://www.linkedin.com/in/dariabatiuk/" target="_blank">
+						<span className="bannerIcon" >
+              <FaLinkedinIn />
+            </span>
+						</a>
+            
+						<a href="https://github.com/DariaBatiuk" target="_blank">
+						<span className="bannerIcon" >
+              <FaGithub />
+            </span>
+						</a>
+						<a href="https://profile.indeed.com/p/dariab-3fx9kxe" target="_blank">
+						<span className="bannerIcon">
 					<SiIndeed />
 				</span>
+						</a>
+				
 			</div>
 			</div>
 			<div className="w-full h-full flex flex-col">
