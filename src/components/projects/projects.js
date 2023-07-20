@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./projectCard";
 import Title from "../layouts/title";
-import {ecommerce, greenSock, noteTaker, employeeTracker, network} from "../../assets/index";
+import {ecommerce, greenSock, noteTaker, employeeTracker, network, pulse, cloudbudget} from "../../assets/index";
 
 const Project = () => {
   return (
@@ -14,6 +14,13 @@ const Project = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap:6vxl:gap-10">
         
+			<ProjectCard 
+						title="Run project"
+						des="Online store of running accessories"
+						src={pulse}
+						githubLink ="https://github.com/DariaBatiuk/Run-project"
+						websiteLink = "https://dariabatiuk.github.io/Run-project/"
+						/>
         <ProjectCard 
 						title="E-commerce Back-End Project"
 						des="This project shows the use of GreenSock Animation (GSAP) library for creating smooth and performant animations on the web."
@@ -27,6 +34,13 @@ const Project = () => {
 						src={greenSock}
 						githubLink ="https://github.com/DariaBatiuk/GreenSock-animation-project"
 						websiteLink = "https://dariabatiuk.github.io/GreenSock-animation-project/"
+						/>
+						   <ProjectCard 
+						title="Landing Page for business"
+						des="Landing page for business company"
+						src={cloudbudget}
+						githubLink ="https://github.com/DariaBatiuk/Page-CloudBudget"
+						websiteLink = "https://dariabatiuk.github.io/Page-CloudBudget/"
 						/>
         <ProjectCard 
 						title="Note Taker"
