@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./projectCard";
 import Title from "../layouts/title";
-import {ecommerce, greenSock, noteTaker, employeeTracker, network, pulse, cloudbudget} from "../../assets/index";
+import {ecommerce, greenSock, noteTaker, employeeTracker, network, pulse, cloudbudget, solar_system, chatbot, user_card, password_generator, quiz, weather_app} from "../../assets/index";
 
 const Project = () => {
   return (
@@ -22,11 +22,11 @@ const Project = () => {
 						websiteLink = "https://dariabatiuk.github.io/Run-project/"
 						/>
         <ProjectCard 
-						title="E-commerce Back-End Project"
-						des="This project shows the use of GreenSock Animation (GSAP) library for creating smooth and performant animations on the web."
-						src={ecommerce}
-						githubLink ="https://github.com/DariaBatiuk/E-commerce-Back-End"
-						websiteLink = "https://drive.google.com/file/d/18YBc6ql7MjbI-fXwJlFOmJsPOEU3x5Rv/view"
+						title="GPT Chatbot"
+						des="AI Chatbot with usage of GPT API"
+						src={chatbot}
+						githubLink ="https://github.com/DariaBatiuk/Chat-bot"
+						websiteLink = "https://dariabatiuk.github.io/Chat-bot/"
 						/>
         <ProjectCard 
 						title="GreenSock Animation"
@@ -49,6 +49,34 @@ const Project = () => {
 						githubLink ="https://github.com/DariaBatiuk/Note-Taker-Express.js"
 						websiteLink = "https://note-taker-app2.herokuapp.com/"
 						/>
+				  <ProjectCard 
+						title="Solar System"
+						des="Mini version of the Solar system made by usage of Three.js"
+						src={solar_system}
+						githubLink ="https://github.com/DariaBatiuk/Solar-system"
+						websiteLink = "https://dariabatiuk.github.io/Solar-system/"
+						/>
+							<ProjectCard 
+						title="Password Generator"
+						des="Javascript online password generator"
+						src={password_generator}
+						githubLink ="https://github.com/DariaBatiuk/Password-Generator-on-JS"
+						websiteLink = "https://dariabatiuk.github.io/Password-Generator-on-JS/"
+						/>
+							<ProjectCard 
+						title="Coding Quiz"
+						des="Javascript Coding Quiz with online timer"
+						src={quiz}
+						githubLink ="https://github.com/DariaBatiuk/Coding-Quiz-on-JS-"
+						websiteLink = "https://dariabatiuk.github.io/Coding-Quiz-on-JS-/"
+						/>
+							<ProjectCard 
+						title="Weather App"
+						des="5-Days Weather App"
+						src={weather_app}
+						githubLink ="https://github.com/DariaBatiuk/My-5-days-Weather-App"
+						websiteLink = "https://dariabatiuk.github.io/My-5-days-Weather-App/"
+						/>
         <ProjectCard 
 						title="Employee tracker"
 						des="The following is a CLI (command-line interface) application that enables the user to handle employee-related data within a company. The program connects to a MySQL database containing three tables,  namely, departments, roles, and employees. "
@@ -57,11 +85,11 @@ const Project = () => {
 						websiteLink = "https://drive.google.com/file/d/1ncKn1mOp3QClJXK_ZR8ODngA1cxizt8M/view"
 						/>
         <ProjectCard 
-						title="Social Network"
-						des="The database in question utilizes MongoDB and provides API endpoints for efficient interaction with the database. Specifically tailored for a social networking platform, this database includes endpoints for managing Users, their associated thoughts, and the reactions of their friends towards those thoughts."
-						src={network}
-						githubLink = "https://github.com/DariaBatiuk/Social_Network_Mongo.db"
-						websiteLink = "https://drive.google.com/file/d/1XLIsNkpwAGfp3ptqNlzhneIPo0sxJKx9/view"
+						title="User Card"
+						des="User Card for a social networ"
+						src={user_card}
+						githubLink = "https://github.com/DariaBatiuk/User-card"
+						websiteLink = "https://dariabatiuk.github.io/User-card/"
 						/>
       </div>
     </section>
