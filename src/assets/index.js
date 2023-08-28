@@ -15,6 +15,7 @@ import user_card from "./images/User_card.jpg";
 import password_generator from "./images/Password_generator.jpg";
 import quiz from "./images/quiz.jpg";
 import weather_app from "./images/Weather_app.jpg";
+import food from './images/food_ordering_app.jpg'
 
 export {
 	cloudbudget,
@@ -33,5 +34,6 @@ export {
 	user_card,
 	password_generator,
 	quiz,
-	weather_app
+	weather_app,
+	food
 }

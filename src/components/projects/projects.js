@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./projectCard";
 import Title from "../layouts/title";
-import {ecommerce, greenSock, noteTaker, employeeTracker, network, pulse, cloudbudget, solar_system, chatbot, user_card, password_generator, quiz, weather_app} from "../../assets/index";
+import {ecommerce, greenSock, noteTaker, employeeTracker, network, pulse, cloudbudget, solar_system, chatbot, user_card, password_generator, quiz, weather_app, food} from "../../assets/index";
 
 const Project = () => {
   return (
@@ -55,6 +55,13 @@ const Project = () => {
 						src={solar_system}
 						githubLink ="https://github.com/DariaBatiuk/Solar-system"
 						websiteLink = "https://dariabatiuk.github.io/Solar-system/"
+						/>
+						<ProjectCard 
+						title="Food Ordeing App"
+						des="Online pizza shop made with React, Node.js, MongoDB "
+						src={food}
+						githubLink ="https://github.com/DariaBatiuk/Food-Ordering-App"
+						websiteLink = "https://food-ordering-app-rust.vercel.app/"
 						/>
 							<ProjectCard 
 						title="Password Generator"
