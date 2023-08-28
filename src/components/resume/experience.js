@@ -10,8 +10,8 @@ const Experience = () => {
       </div>
       <div className="w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
-          title="Front End Developer, Freelance"
-          subtitle="Moncton, NB. January 2022 – Present."
+          title="Junior Front End Developer, HRUN"
+          subtitle="Moncton, NB. January 2023 – Present."
           des="Developing and maintaining user-friendly, responsive, and cross-browser compatible websites and web applications using HTML, CSS, and JavaScript. 
 					Collaborating with designers, developers, and other team members to ensure that website designs and functionality meet project requirements and user needs.
 					Testing and debugging website and application code to identify and fix errors and ensure optimal performance.
