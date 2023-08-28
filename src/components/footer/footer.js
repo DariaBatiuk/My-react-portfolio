@@ -43,12 +43,12 @@ const Footer = () => {
 						<span className="w-full text-lg relative group hover:text-designColor duration-300 cursor-pointer">Portfolio <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-full opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"></span></span>
 						</li>
 					</a>
-				<a href="features">
+				<a href="#features">
 				<li>
 						<span className="w-full text-lg relative group hover:text-designColor duration-300 cursor-pointer">Services <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-full opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"></span></span>
 						</li>
 				</a>
-						<a href="contact">
+						<a href="#contact">
 						<li>
 						<span className="w-full text-lg relative group hover:text-designColor duration-300 cursor-pointer">Contact <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-full opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"></span></span>
 						</li>
