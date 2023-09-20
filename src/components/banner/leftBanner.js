@@ -81,13 +81,13 @@ const LeftBanner = () => {
 						</a>
             
           </div>
-          <button
+          {/* <button
             onClick={handleDownload}
             className="w-1/2 h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
-            disabled={isDownloading} // Добавьте disabled атрибут, чтобы предотвратить повторные нажатия во время загрузки
+            disabled={isDownloading} 
           >
             {isDownloading ? "Downloading..." : "Download CV"}
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
